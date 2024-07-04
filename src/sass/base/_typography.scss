@@ -1,0 +1,50 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $MidGrey;
+}
+
+.headingPrimary{
+    color: $White;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+
+    &--main{
+        display: block;
+        font-family: 'Bigelow Rules', cursive;
+        font-size: 8rem;
+        font-weight: 400;
+        letter-spacing: 2rem;
+        animation-name: waitForWhile;
+        animation-duration: 1s;
+    }
+    
+    &--sub{
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: 1.5rem;
+        animation-name: waitForWhile;
+        animation-duration: 1.5s;
+    }
+}
+
+.headingSecondary{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: inline-block;
+    background-image: linear-gradient(to right, $LightBlue,$MediumBlue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .3rem;
+
+    &:hover{
+        text-shadow: .5rem 1rem 2rem rgba($DarkBlue,.3);
+    }
+}
+
+

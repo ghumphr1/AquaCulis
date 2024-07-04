@@ -1,0 +1,52 @@
+/*--------- hidden reader nav ----------*/
+
+.jumpToMain{
+    position:absolute;
+    left: .5rem;
+    background: black;
+    padding: .5rem 1.5rem;
+    border-radius: 0 0 .5rem 0.5rem;
+     transform: translateY(-120%);
+    transition: transform 350ms ease-in;
+}
+
+.jumpToMain:focus{
+    transform: translateY(0);
+}
+
+/*--------- hidden reader nav ----------*/
+
+.header{
+    height: 95vh;
+    background-image: repeating-linear-gradient(
+        to right bottom,
+        rgba($LightBlue, 0.827),
+        rgba($DarkBlue, 0.824)),
+        url(../assets/images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;    
+    clip-path: polygon(
+        0 0, 100% 0, 100% 93%, 50% 100%, 0% 98%
+    );
+
+    &__logoBox{
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    
+    }
+
+    &__logo{
+        height: 5rem;
+    }
+
+    &__textBox{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+}

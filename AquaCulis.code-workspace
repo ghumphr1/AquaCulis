@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../AquaCulis"
+		},
+	],
+	"settings": {
+		"workbench.enableExperiments": false,
+		"git.ignoreLimitWarning": true
+	}
+}

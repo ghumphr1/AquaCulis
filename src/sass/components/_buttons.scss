@@ -1,0 +1,35 @@
+
+.btn{
+
+
+    &:link,
+    &:visited{
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        animation-name: waitForWhile;
+        animation-duration: 2.5s;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        font-size: 1.6rem;
+    }
+
+    &:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 2rem ($SuperDarkBlue, 0.6);
+        background-color: darken($SuperLightBlue,10%);
+    }
+
+    &:active{
+        transform: translateY(-.5px);
+        box-shadow: 0 .5rem 1trm ($SuperDarkBlue, 0.6);    
+    }
+
+    &--white{
+        background-color: $SuperLightBlue;
+        color: $MidGrey;
+    }
+
+}
